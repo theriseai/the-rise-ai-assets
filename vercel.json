@@ -1,4 +1,9 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "outputDirectory": "public"
+  "rewrites": [
+    { "source": "/Card_1.png", "destination": "https://raw.githubusercontent.com/theriseai/the-rise-ai-assets/main/public/Card_1.png" },
+    { "source": "/Card_2.png", "destination": "https://raw.githubusercontent.com/theriseai/the-rise-ai-assets/main/public/Card_2.png" },
+    { "source": "/Card_3.png", "destination": "https://raw.githubusercontent.com/theriseai/the-rise-ai-assets/main/public/Card_3.png" },
+    { "source": "/Card_4.png", "destination": "https://raw.githubusercontent.com/theriseai/the-rise-ai-assets/main/public/Card_4.png" },
+    { "source": "/logo.png", "destination": "https://raw.githubusercontent.com/theriseai/the-rise-ai-assets/main/public/logo.png" }
+  ]
 }
